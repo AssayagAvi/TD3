@@ -8,7 +8,7 @@ public class Ligne implements PrePostVisitable, Visitable{
         this.name = name;
     }
 
-    public Ligne(int sum, String name) {
+    public Ligne(String name, int sum) {
         this.sum = sum;
         this.name = name;
     }
