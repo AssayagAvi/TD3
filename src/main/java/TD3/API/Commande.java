@@ -7,9 +7,7 @@ public class Commande implements PrePostVisitable, Visitable{
         this.name = name;
     }
 
-
     public void addLigne(Ligne l){
-
     }
 
     public void accept(PrePostVisitor ppv) {
@@ -17,5 +15,9 @@ public class Commande implements PrePostVisitable, Visitable{
 
     public void accept(Visitor v){
 
+    }
+
+    public String getName() {
+        return name;
     }
 }
